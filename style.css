@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #00ff00 , yellow, red);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
+h1{
+    font-size:20px;
+    margin-top: 20px;
+}
+h3{
+    font-size:14px;
+}
+p{
+    font-size: 10px;
+    background: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(214, 226, 226, 0.5);
+}
+.input{
+    display: flex;
+    flex-direction: row;
+}
+input{
+    margin: 10px;
+}
